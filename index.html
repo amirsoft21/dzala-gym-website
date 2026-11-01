@@ -1,0 +1,385 @@
+<!doctype html>
+<html lang="ka">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DZALA — Training Club Tbilisi</title>
+  <meta name="description" content="DZALA — premium training club in Tbilisi. Personal coaching, modern equipment and a strong community." />
+  <meta name="theme-color" content="#0b0d0a" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://images.unsplash.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,wght@0,400..700;1,400..700&family=Instrument+Serif:ital@0;1&family=Noto+Serif+Georgian:wght@300..600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.13/dist/lenis.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="is-loading">
+
+  <!-- ============ PRELOADER ============ -->
+  <div class="loader" aria-hidden="true">
+    <div class="loader__top">
+      <span class="loader__brand">DZALA</span>
+      <span class="loader__geo">ძალა</span>
+    </div>
+    <div class="loader__count"><span class="loader__num">0</span><span class="loader__pct">%</span></div>
+    <div class="loader__bar"><span></span></div>
+  </div>
+
+  <!-- ============ LANGUAGE TRANSITION ============ -->
+  <div class="lang-wipe" aria-hidden="true">
+    <div class="lang-wipe__panel"></div>
+    <div class="lang-wipe__label"><span class="lang-wipe__text">ქართული</span></div>
+  </div>
+
+  <!-- ============ CURSOR + GRAIN ============ -->
+  <div class="cursor" aria-hidden="true"><span class="cursor__dot"></span><span class="cursor__ring"><span class="cursor__label"></span></span></div>
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- ============ HEADER ============ -->
+  <header class="header">
+    <a href="#top" class="logo" aria-label="DZALA">
+      <span class="logo__mark">
+        <svg viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="19" stroke="currentColor" stroke-width="1.2"/><path d="M12 26 L20 12 L28 26" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M15.5 21h9" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+      </span>
+      <span class="logo__text">DZALA</span>
+    </a>
+
+    <nav class="nav" aria-label="Main">
+      <a href="#about" class="nav__link" data-i18n="nav.about"></a>
+      <a href="#programs" class="nav__link" data-i18n="nav.programs"></a>
+      <a href="#community" class="nav__link" data-i18n="nav.community"></a>
+      <a href="#pricing" class="nav__link" data-i18n="nav.pricing"></a>
+      <a href="#contact" class="nav__link" data-i18n="nav.contact"></a>
+    </nav>
+
+    <div class="header__right">
+      <button class="lang" type="button" aria-label="Switch language">
+        <span class="lang__opt" data-lang="ka">ქა</span>
+        <span class="lang__opt" data-lang="en">EN</span>
+        <span class="lang__thumb"></span>
+      </button>
+      <a href="#contact" class="btn btn--light btn--sm magnetic" data-i18n="nav.join"></a>
+      <button class="burger" type="button" aria-label="Menu"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <!-- ============ FULLSCREEN MENU ============ -->
+  <div class="menu" aria-hidden="true">
+    <div class="menu__bg"></div>
+    <nav class="menu__nav">
+      <a href="#about" class="menu__link"><span class="menu__num">01</span><span class="menu__txt" data-i18n="nav.about"></span></a>
+      <a href="#programs" class="menu__link"><span class="menu__num">02</span><span class="menu__txt" data-i18n="nav.programs"></span></a>
+      <a href="#community" class="menu__link"><span class="menu__num">03</span><span class="menu__txt" data-i18n="nav.community"></span></a>
+      <a href="#pricing" class="menu__link"><span class="menu__num">04</span><span class="menu__txt" data-i18n="nav.pricing"></span></a>
+      <a href="#contact" class="menu__link"><span class="menu__num">05</span><span class="menu__txt" data-i18n="nav.contact"></span></a>
+    </nav>
+    <div class="menu__foot">
+      <span>+995 555 12 34 56</span><span>hello@dzala.ge</span>
+    </div>
+  </div>
+
+  <main id="top">
+
+    <!-- ============ 01 HERO ============ -->
+    <section class="hero" data-cursor-theme="dark">
+      <div class="hero__media">
+        <img class="hero__img" src="https://images.unsplash.com/photo-1605296867304-46d5465a13f1?auto=format&fit=crop&w=2400&q=80" alt="" />
+        <div class="hero__glow"></div>
+        <div class="hero__shade"></div>
+      </div>
+
+      <div class="hero__side hero__side--left">
+        <p class="side-stack" data-i18n="hero.sideLeft"></p>
+        <span class="side-line"></span>
+      </div>
+      <div class="hero__side hero__side--right">
+        <p class="side-stack side-stack--right" data-i18n="hero.sideRight"></p>
+        <span class="side-line"></span>
+      </div>
+
+      <div class="hero__content">
+        <p class="eyebrow hero__eyebrow"><span class="dot"></span><span data-i18n="hero.eyebrow"></span></p>
+        <h1 class="hero__title" data-i18n="hero.title" data-split></h1>
+        <p class="hero__sub" data-i18n="hero.sub"></p>
+      </div>
+
+      <div class="hero__bottom">
+        <div class="hero__scroll">
+          <span class="hero__scroll-line"></span>
+          <span data-i18n="hero.scroll"></span>
+        </div>
+
+        <div class="pillbar">
+          <a href="#top" class="pillbar__item is-active">
+            <svg viewBox="0 0 24 24"><path d="M3 11.5 12 4l9 7.5V20a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></svg>
+            <span data-i18n="pill.home"></span>
+          </a>
+          <a href="#programs" class="pillbar__item">
+            <svg viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2" fill="none" stroke-width="2.2" stroke-linecap="round"/></svg>
+            <span data-i18n="pill.programs"></span>
+          </a>
+          <a href="#pricing" class="pillbar__item">
+            <svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2" fill="none" stroke-width="2"/><path d="M3 10h18M8 3v4M16 3v4" fill="none" stroke-width="2" stroke-linecap="round"/></svg>
+            <span data-i18n="pill.plans"></span>
+          </a>
+          <a href="#contact" class="pillbar__cta magnetic"><span data-i18n="pill.cta"></span><span class="arr">→</span></a>
+        </div>
+
+        <ul class="hero__stats">
+          <li><b data-count="1200" data-suffix="+">0</b><span data-i18n="stats.members"></span></li>
+          <li><b>24/7</b><span data-i18n="stats.open"></span></li>
+          <li><b data-count="4.9" data-decimals="1">0</b><span data-i18n="stats.rating"></span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ MARQUEE ============ -->
+    <section class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <div class="marquee__row" data-i18n="marquee"></div>
+        <div class="marquee__row" data-i18n="marquee"></div>
+      </div>
+    </section>
+
+    <!-- ============ 02 ABOUT ============ -->
+    <section class="about section" id="about">
+      <div class="container">
+        <div class="sec-head">
+          <span class="sec-num">02</span>
+          <p class="eyebrow" data-i18n="about.eyebrow"></p>
+        </div>
+        <p class="manifesto" data-i18n="about.manifesto" data-fill></p>
+
+        <div class="about__grid">
+          <figure class="about__img reveal-img">
+            <img src="https://images.unsplash.com/photo-1593079831268-3381b0db4a77?auto=format&fit=crop&w=1600&q=80" alt="" data-parallax />
+            <figcaption class="about__badge">
+              <span class="about__badge-num">2018</span>
+              <span data-i18n="about.since"></span>
+            </figcaption>
+          </figure>
+
+          <div class="about__features">
+            <article class="feature reveal-up">
+              <span class="feature__icon"><svg viewBox="0 0 24 24"><path d="M6 8v8M3 10v4M18 8v8M21 10v4M6 12h12" fill="none" stroke-width="2" stroke-linecap="round"/></svg></span>
+              <div><h3 data-i18n="f1.t"></h3><p data-i18n="f1.d"></p></div>
+            </article>
+            <article class="feature reveal-up">
+              <span class="feature__icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4" fill="none" stroke-width="2"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6" fill="none" stroke-width="2" stroke-linecap="round"/></svg></span>
+              <div><h3 data-i18n="f2.t"></h3><p data-i18n="f2.d"></p></div>
+            </article>
+            <article class="feature reveal-up">
+              <span class="feature__icon"><svg viewBox="0 0 24 24"><path d="M12 21c-4.5-2.5-8-6-8-10.5A4.5 4.5 0 0 1 12 7.6a4.5 4.5 0 0 1 8 2.9C20 15 16.5 18.5 12 21z" fill="none" stroke-width="2" stroke-linejoin="round"/></svg></span>
+              <div><h3 data-i18n="f3.t"></h3><p data-i18n="f3.d"></p></div>
+            </article>
+            <article class="feature reveal-up">
+              <span class="feature__icon"><svg viewBox="0 0 24 24"><circle cx="8" cy="9" r="3" fill="none" stroke-width="2"/><circle cx="17" cy="9" r="3" fill="none" stroke-width="2"/><path d="M2 20c.8-3 3-4.5 6-4.5s5.2 1.5 6 4.5M14 15.7c.9-.2 1.9-.2 3-.2 3 0 5.2 1.5 6 4.5" fill="none" stroke-width="2" stroke-linecap="round"/></svg></span>
+              <div><h3 data-i18n="f4.t"></h3><p data-i18n="f4.d"></p></div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 03 PROGRAMS (horizontal) ============ -->
+    <section class="programs" id="programs">
+      <div class="programs__pin">
+        <div class="programs__head container">
+          <div class="sec-head">
+            <span class="sec-num">03</span>
+            <p class="eyebrow" data-i18n="programs.eyebrow"></p>
+          </div>
+          <h2 class="h2" data-i18n="programs.title" data-split></h2>
+          <div class="programs__progress"><span></span></div>
+        </div>
+
+        <div class="programs__track">
+          <a href="#contact" class="pcard" data-cursor="view">
+            <div class="pcard__media"><img src="https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?auto=format&fit=crop&w=1200&q=80" alt="" /></div>
+            <div class="pcard__body"><span class="pcard__num">01</span><h3 data-i18n="p1.t"></h3><p data-i18n="p1.d"></p><span class="pcard__arrow">→</span></div>
+          </a>
+          <a href="#contact" class="pcard" data-cursor="view">
+            <div class="pcard__media"><img src="https://images.unsplash.com/photo-1599058917212-d750089bc07e?auto=format&fit=crop&w=1200&q=80" alt="" /></div>
+            <div class="pcard__body"><span class="pcard__num">02</span><h3 data-i18n="p2.t"></h3><p data-i18n="p2.d"></p><span class="pcard__arrow">→</span></div>
+          </a>
+          <a href="#contact" class="pcard" data-cursor="view">
+            <div class="pcard__media"><img src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&w=1200&q=80" alt="" /></div>
+            <div class="pcard__body"><span class="pcard__num">03</span><h3 data-i18n="p3.t"></h3><p data-i18n="p3.d"></p><span class="pcard__arrow">→</span></div>
+          </a>
+          <a href="#contact" class="pcard" data-cursor="view">
+            <div class="pcard__media"><img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=1200&q=80" alt="" /></div>
+            <div class="pcard__body"><span class="pcard__num">04</span><h3 data-i18n="p4.t"></h3><p data-i18n="p4.d"></p><span class="pcard__arrow">→</span></div>
+          </a>
+          <a href="#contact" class="pcard" data-cursor="view">
+            <div class="pcard__media"><img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=1200&q=80" alt="" /></div>
+            <div class="pcard__body"><span class="pcard__num">05</span><h3 data-i18n="p5.t"></h3><p data-i18n="p5.d"></p><span class="pcard__arrow">→</span></div>
+          </a>
+          <div class="pcard pcard--end">
+            <p data-i18n="programs.end"></p>
+            <a href="#pricing" class="btn btn--accent magnetic"><span data-i18n="programs.cta"></span><span class="arr">→</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 04 COMMUNITY (fan cards) ============ -->
+    <section class="community section" id="community">
+      <div class="container">
+        <div class="sec-head sec-head--center">
+          <span class="sec-num">04</span>
+          <p class="eyebrow" data-i18n="community.eyebrow"></p>
+        </div>
+      </div>
+      <div class="fan">
+        <figure class="fan__card" style="--r:-14deg"><img src="https://images.unsplash.com/photo-1550345332-09e3ac987658?auto=format&fit=crop&w=800&q=80" alt="" /><figcaption>Nino · 26</figcaption></figure>
+        <figure class="fan__card" style="--r:-6deg"><img src="https://images.unsplash.com/photo-1532029837206-abbe2b7620e3?auto=format&fit=crop&w=800&q=80" alt="" /><figcaption>Giorgi · 31</figcaption></figure>
+        <figure class="fan__card" style="--r:2deg"><img src="https://images.unsplash.com/photo-1574680096145-d05b474e2155?auto=format&fit=crop&w=800&q=80" alt="" /><figcaption>Ana · 29</figcaption></figure>
+        <figure class="fan__card" style="--r:9deg"><img src="https://images.unsplash.com/photo-1599058945522-28d584b6f0ff?auto=format&fit=crop&w=800&q=80" alt="" /><figcaption>Luka · 34</figcaption></figure>
+        <figure class="fan__card" style="--r:15deg"><img src="https://images.unsplash.com/photo-1594381898411-846e7d193883?auto=format&fit=crop&w=800&q=80" alt="" /><figcaption>Mariam · 24</figcaption></figure>
+      </div>
+      <h2 class="community__title" data-i18n="community.title" data-split></h2>
+    </section>
+
+    <!-- ============ 05 STEPS ============ -->
+    <section class="steps section">
+      <div class="container steps__inner">
+        <div class="steps__intro">
+          <div class="sec-head">
+            <span class="sec-num">05</span>
+            <p class="eyebrow" data-i18n="steps.eyebrow"></p>
+          </div>
+          <h2 class="h2" data-i18n="steps.title" data-split></h2>
+          <p class="lead" data-i18n="steps.sub"></p>
+        </div>
+        <ol class="steps__list">
+          <span class="steps__line"><span></span></span>
+          <li class="step reveal-up"><span class="step__n">01</span><div><h3 data-i18n="s1.t"></h3><p data-i18n="s1.d"></p></div></li>
+          <li class="step reveal-up"><span class="step__n">02</span><div><h3 data-i18n="s2.t"></h3><p data-i18n="s2.d"></p></div></li>
+          <li class="step reveal-up"><span class="step__n">03</span><div><h3 data-i18n="s3.t"></h3><p data-i18n="s3.d"></p></div></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ 06 TESTIMONIALS ============ -->
+    <section class="reviews section">
+      <div class="container reviews__head">
+        <div>
+          <div class="sec-head">
+            <span class="sec-num">06</span>
+            <p class="eyebrow" data-i18n="reviews.eyebrow"></p>
+          </div>
+          <h2 class="h2" data-i18n="reviews.title" data-split></h2>
+        </div>
+        <div class="reviews__score">
+          <b>4.9</b>
+          <span class="stars">★★★★★</span>
+          <span data-i18n="reviews.score"></span>
+        </div>
+      </div>
+      <div class="reviews__rail" data-cursor="drag">
+        <div class="reviews__track">
+          <article class="review"><p data-i18n="r1.q"></p><footer><span class="avatar">N</span><div><b>Nino Kapanadze</b><span data-i18n="r1.m"></span></div></footer></article>
+          <article class="review"><p data-i18n="r2.q"></p><footer><span class="avatar">G</span><div><b>Giorgi Maisuradze</b><span data-i18n="r2.m"></span></div></footer></article>
+          <article class="review"><p data-i18n="r3.q"></p><footer><span class="avatar">A</span><div><b>Ana Beridze</b><span data-i18n="r3.m"></span></div></footer></article>
+          <article class="review"><p data-i18n="r4.q"></p><footer><span class="avatar">L</span><div><b>Luka Tsiklauri</b><span data-i18n="r4.m"></span></div></footer></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 07 PRICING ============ -->
+    <section class="pricing section" id="pricing">
+      <div class="container pricing__inner">
+        <div class="pricing__intro">
+          <div class="sec-head">
+            <span class="sec-num">07</span>
+            <p class="eyebrow" data-i18n="pricing.eyebrow"></p>
+          </div>
+          <h2 class="h2" data-i18n="pricing.title" data-split></h2>
+          <p class="lead" data-i18n="pricing.sub"></p>
+          <div class="toggle" role="group">
+            <button class="toggle__btn is-active" data-period="month" data-i18n="pricing.monthly"></button>
+            <button class="toggle__btn" data-period="year" data-i18n="pricing.yearly"></button>
+            <span class="toggle__thumb"></span>
+            <span class="toggle__save" data-i18n="pricing.save"></span>
+          </div>
+        </div>
+
+        <div class="plans">
+          <article class="plan reveal-up">
+            <h3 data-i18n="plan1.t"></h3><p class="plan__for" data-i18n="plan1.for"></p>
+            <div class="plan__price"><b class="price" data-month="89" data-year="71">89</b><span>₾ / <i data-i18n="pricing.mo"></i></span></div>
+            <ul data-i18n="plan1.list"></ul>
+            <a href="#contact" class="btn btn--ghost" data-i18n="pricing.choose"></a>
+          </article>
+          <article class="plan plan--pop reveal-up">
+            <span class="plan__tag" data-i18n="pricing.popular"></span>
+            <h3 data-i18n="plan2.t"></h3><p class="plan__for" data-i18n="plan2.for"></p>
+            <div class="plan__price"><b class="price" data-month="149" data-year="119">149</b><span>₾ / <i data-i18n="pricing.mo"></i></span></div>
+            <ul data-i18n="plan2.list"></ul>
+            <a href="#contact" class="btn btn--accent magnetic" data-i18n="pricing.trial"></a>
+          </article>
+          <article class="plan reveal-up">
+            <h3 data-i18n="plan3.t"></h3><p class="plan__for" data-i18n="plan3.for"></p>
+            <div class="plan__price"><b class="price" data-month="249" data-year="199">249</b><span>₾ / <i data-i18n="pricing.mo"></i></span></div>
+            <ul data-i18n="plan3.list"></ul>
+            <a href="#contact" class="btn btn--ghost" data-i18n="pricing.choose"></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 08 CTA / CONTACT ============ -->
+    <section class="cta" id="contact">
+      <div class="cta__frame">
+        <img class="cta__img" src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=2400&q=80" alt="" />
+        <div class="cta__shade"></div>
+        <div class="cta__content container">
+          <div class="sec-head">
+            <span class="sec-num">08</span>
+            <p class="eyebrow" data-i18n="cta.eyebrow"></p>
+          </div>
+          <h2 class="cta__title" data-i18n="cta.title" data-split></h2>
+          <p class="lead" data-i18n="cta.sub"></p>
+          <a href="tel:+995555123456" class="btn btn--light btn--lg magnetic"><span data-i18n="cta.btn"></span><span class="arr">→</span></a>
+        </div>
+        <div class="cta__info container">
+          <div><span class="cta__label" data-i18n="cta.addrL"></span><p data-i18n="cta.addr"></p></div>
+          <div><span class="cta__label" data-i18n="cta.hoursL"></span><p data-i18n="cta.hours"></p></div>
+          <div><span class="cta__label" data-i18n="cta.contactL"></span><p>+995 555 12 34 56<br/>hello@dzala.ge</p></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer__top">
+      <p class="footer__motto" data-i18n="footer.motto"></p>
+      <nav class="footer__nav">
+        <a href="#about" data-i18n="nav.about"></a>
+        <a href="#programs" data-i18n="nav.programs"></a>
+        <a href="#pricing" data-i18n="nav.pricing"></a>
+        <a href="#contact" data-i18n="nav.contact"></a>
+      </nav>
+      <nav class="footer__social">
+        <a href="#" aria-label="Instagram">Instagram</a>
+        <a href="#" aria-label="Facebook">Facebook</a>
+        <a href="#" aria-label="TikTok">TikTok</a>
+      </nav>
+    </div>
+    <div class="footer__word" aria-hidden="true"><span data-i18n="footer.word"></span></div>
+    <div class="container footer__bottom">
+      <span>© 2026 DZALA</span>
+      <span data-i18n="footer.rights"></span>
+      <a href="#top" class="footer__up" data-i18n="footer.up"></a>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
